@@ -26,7 +26,7 @@ public class MainActivity extends FragmentActivity {
         setContentView(R.layout.activity_main);
 
         getSupportFragmentManager().beginTransaction().replace(R.id.content,new FurnitureFragment()).commit();
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
+        BottomNavigationView navigation = findViewById(R.id.navigation);
         fragmentManager = getSupportFragmentManager();
 
         navigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
