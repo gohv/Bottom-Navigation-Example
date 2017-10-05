@@ -1,6 +1,17 @@
 <resources>
-    <string name="app_name">FurnitureDb</string>
+    <string name="app_name">FurnitureDB</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_notifications">Add Furniture</string>
+    <string name="type">Type</string>
+    <string name="price">Price</string>
+    <string name="storeName">Store</string>
+    <string name="link">Link</string>
+    <string name="save">Save</string>
+
+
+    <string name="string_type">Type: %1$s</string>
+    <string name="string_price">Price: %1$s </string>
+    <string name="string_store">Store: %1$s </string>
+    <string name="string_link">Link: %1$s </string>
+
 </resources>
